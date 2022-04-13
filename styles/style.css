@@ -1,0 +1,161 @@
+body {
+  background-color: black;
+}
+
+.middleContainer {
+  padding: 150px 0 50px 0;
+  background-image: linear-gradient(180deg, black, white, white);
+  color: black;
+}
+
+.topContainer {
+  background-image: linear-gradient(360deg, black, #D4B499, white);
+  height: 600px;
+  width: 100vw;
+}
+
+.bottomContainer {
+  height: 400px;
+  background-image: linear-gradient(180deg, white, black, black);
+}
+.sushiimages {
+  width: 100%;
+}
+
+.row {
+  padding: 10px;
+}
+
+.topText {
+  padding-top: 30px;
+  color: white;
+  margin-left: 20px;
+}
+.togoImage {
+  width: 45%;
+}
+
+.textAlignCenter {
+  text-align: center;
+}
+
+#main {
+  background-color: white;
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+#mainImage {
+  padding-top: 175px;
+  width: 75%;
+}
+
+.menuViewButton {
+  font-size: 1.5rem;
+  margin-top: 30px;
+}
+
+.topImage {
+  width: 100%;
+}
+
+.sidebar {
+  height: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  background-color: black;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 0px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.closebtn {
+  font-size: 4rem;
+  color: blue;
+}
+
+.menuTitle {
+  border-radius: 25px;
+  width: 80%;
+  margin-top: 40px;
+}
+
+.menuTitle:hover {
+  opacity: 10%;
+}
+
+.warningNote {
+  color: grey;
+}
+
+@media (min-width: 745px) {
+  .mobileOnly {
+    display: none;
+  }
+
+  .desktopOnly {
+    display: block;
+  }
+
+  #mainImage {
+    width: 40%;
+  }
+
+  .menuTitle {
+    border-radius: 25px;
+    width: 30%;
+    margin-top: 40px;
+  }
+}
+
+hr {
+  color: white;
+  margin: auto;
+  width: 70%;
+}
+
+.hours {
+  padding-top:20px;
+  color: grey;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1rem;
+  margin: auto;
+}
+
+h4 {
+  color: blue;
+  margin: auto;
+  font-size: 1rem;
+}
+
+i {
+  color: grey;
+}
+
+a {
+  color: blue;
+}
+
+
+.creditsContainer {
+  margin-top: 50px;
+  background-color: grey;
+  padding : 40px 0 20px;
+  color: white;
+  font-size: 0.5rem;
+}

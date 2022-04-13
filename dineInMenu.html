@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>AI Dine In Menu</title>
+</head>
+<!-- Bootstrap-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+<!-- Font Awesome -->
+<script src="https://kit.fontawesome.com/dd9a97d0e2.js" crossorigin="anonymous"></script>
+<!-- Javascript-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald&family=Rubik:wght@500&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anek+Odia:wght@200&family=Oswald&family=Rubik:wght@500&display=swap" rel="stylesheet">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, user-scalable=no">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles/styletwo.css">
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+<link rel="apple-touch-icon" href="images/appleIcon.png">
+
+<body>
+  <section class="topMenuBar w3-white2">
+    <div id="mySidebar" class="sidebar mobileOnly">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <h1>Menu Categories</h1>
+      <a href="#"><img class="menuItem" onclick="sushiMenu()" src="images/sushi.png" alt=""></a>
+      <a href="#"><img class="menuItem" onclick="lunchMenu()" src="images/lunch.png" alt=""></a>
+      <a href="#"><img class="menuItem" src="images/dinner.png" alt=""></a>
+      <a href="#"><img class="menuItem" src="images/daily.png" alt=""></a>
+      <a href="#"><img class="menuItem" src="images/drinks.png" alt=""></a>
+      <a href="index.html" onclick="homePage(),closeNav()">
+        << Return to Main Menu</a>
+    </div>
+
+    <div id="main" class="mobileOnly">
+      <button class="menuBar" onclick="openNav()"><i class="fa fa-solid fa-1x fa-arrow-down"></i> MENU CATEGORIES <i class="fa fa-solid fa-1x fa-arrow-down"></i></button>
+    </div>
+  </section>
+
+
+  <!-- SECTION FOR SUSHI MENU -->
+  <section class="menuViews" id="instructionsView">
+    <div class="textAlignCenter">
+      <i class="fa fa-4x fa-regular fa-hand-point-up"></i>
+      <h3>Click "MENU CATEGORIES" to access menu by sections at any time</h3>
+    </div>
+
+  </section>
+
+
+  <section class="menuViews" id="sushiMenuView">
+
+    <div class="row">
+      <div class="col-3">
+        <img src="images/sushi1.jpg" alt="">
+      </div>
+      <div class="col-3">
+        <img src="images/sushi2.jpg" alt="">
+      </div>
+      <div class="col-3">
+        <img src="images/sushi3.jpg" alt="">
+      </div>
+      <div class="col-3">
+        <img src="images/sushi4.jpg" alt="">
+      </div>
+
+    </div>
+
+
+
+    <h1>SUSHI</h1>
+
+    <a style="text-decoration:none;" href="javascript:void(0)" onclick="nigiriSushiView()">
+      <h3 style="text-decoration:none;" id="nigiriSushiTitle"> ☰ Nigiri Sushi (2pc/Order)</h3>
+    </a>
+    <div id="nigiriSushi1" class="nigiriSushi">
+      <h4>• Albacore</h4>
+      <h4>• Ama Ebi<i> (sweet shrimp)</i></h4>
+      <h4>• Anago<i> (saltwater eel)</i></h4>
+      <h4>• Ebi<i> (shrimp)</i></h4>
+      <h4>• Hamachi<i> (yellowtail)</i></h4>
+      <h4>• Hokkigai<i> (surf clams)</i></h4>
+      <h4>• Ika<i> (squid)</i></h4>
+      <h4>• Iku-Dama<i> (with quail eggs)</i></h4>
+      <h4>• Ikura<i> (salmon roe)</i></h4>
+      <h4>• Inari<i> (fried bean curds)</i></h4>
+      <h4>• Kaibashira<i> (scallops)</i></h4>
+      <h4>• Kani<i> (crab meet)</i></h4>
+      <h4>• Maguro<i> (tuna)</i></h4>
+      <h4>• Masago<i> (smelt egg)</i></h4>
+      <h4>• Saba<i> (mackerel)</i></h4>
+      <h4>• Sake<i> (salmon)</i></h4>
+      <h4>• Taco<i> (octopus)</i></h4>
+      <h4>• Tai<i> (red snapper)</i></h4>
+      <h4>• Tamago<i> (cooked eggs)</i></h4>
+      <h4>• Tobico<i> (flying fish eggs)</i></h4>
+      <h4>• Tobi-Dama<i> (with quail eggs)</i></h4>
+      <h4>• Unagi<i> (freshwater eel)</i></h4>
+      <h4>• White Tuna</h4>
+    </div>
+
+    <a style="text-decoration:none;" href="javascript:void(0)" onclick="sashimiAppetizerView()">
+      <h3> ☰ Sashimi Appetizer (6pc/Order)</h3>
+    </a>
+    <div id="sashimiAppetizer1" class="sashimiAppetizer">
+      <h4>• Albacore</h4>
+      <h4>• Maguro<i> (tuna)</i></h4>
+      <h4>• Hamachi<i> (yellowtail)</i></h4>
+      <h4>• White Tuna</h4>
+      <h4>• Sake<i> (salmon)</i></h4>
+      <h4>• Yellowtail Jalapeno Sashimi<i> (jalapeño, cilantro, and yuzuponzu sauce)</i></h4>
+      <h4>• Miso Caramelized Super White Tuna<i> (jalapeño, micro wasabi, balsamic, soy onion vinaigrette, caramelized with Japanese sweet miso)</i></h4>
+      <h4>• Tuna Tataki Sashimi<i> (fried garlic, scallion, and ponzu sauce)</i></h4>
+      <h4>• Scottish Salmon Carpaccio<i> (fried garlic, julienned ginger, cilantro, and yuzu soy sauce, seared with hot olive sesame oil)</i></h4>
+      <h4>• Ai Poke Tuna<i> (Korean kochujang aioli, avocado, cilantro red lettuce, and julienned carrots, with a ginger onion dressing)</i></h4>
+      <h4>• Peruvian Style Ceviche<i> (salmon, yellowtail, surf clams, shrimp, octopus, onion, mandarin orange, cilantro, jalapeño, tomato, red lettuce, and Aji Amarillo (Peruvian yellow pepper pastel, served on a cold dish)</i></h4>
+    </div>
+
+
+    <a style="text-decoration:none;" href="javascript:void(0)" onclick="rollSushiView()">
+      <h3> ☰ Roll Sushi</h3>
+    </a>
+    <div id="rollSushi1" class="rollSushi">
+      <h4>• Alaska<i> (smoked salmon and avocado)</i></h4>
+      <h4>• Calamari Tempura<i> (deep-fried squid, cucumber, gobo, avocado, and spicy mayo)</i></h4>
+      <h4>• Spicy Crunchy Salmon<i> (chopped spicy salmon with a crunch)</i></h4>
+      <h4>• California Roll<i> (crab and avocado)</i></h4>
+      <h4>• Cherry Blossom<i> (tuna, salmon, and avocado on top of a california roll)</i></h4>
+      <h4>• Cucumber Avocado Roll</h4>
+      <h4>• Futomaki<i> (vegetable and egg)</i></h4>
+      <h4>• Hamachi Roll<i> (yellowtail)</i></h4>
+      <h4>• Kappa<i> (cucumber roll)</i></h4>
+      <h4>• Krispy<i> (deep-fried tuna, hamachi, salmon, and avocado)</i></h4>
+      <h4>• Philly Roll<i> (salmon and cream cheese)</i></h4>
+      <h4>• Rainbow<i> (5 kinds of fish and avocado on top of a California roll)</i></h4>
+      <h4>• Spicy Tuna Roll<i> (cucumber and spicy tuna)</i></h4>
+      <h4>• Mango Salmon Roll<i> (salmon and mango)</i></h4>
+      <h4>• Salmon Roll</h4>
+      <h4>• Tekka<i> (tuna roll)</i></h4>
+      <h4>• Sweet Potato Tempura Roll</h4>
+      <h4>• Shrimp Tempura<i> (shrimp tempura, gobo, cucumber, avocado, and spicy mayo)</i></h4>
+      <h4>• Spider<i> (soft shell crab, cucumber, gobo, avocado, and spicy mayo)</i></h4>
+      <h4>• Unagi Roll<i> (unagi, cucumber, and avocado)</i></h4>
+      <h4>• Sunrise Roll<i> (salmon and lemon on top of a california roll, served with yuzu sauce)</i></h4>
+    </div>
+
+
+    <a style="text-decoration:none;" href="javascript:void(0)" onclick="specialSushiView()">
+      <h3> ☰ Special Sushi</h3>
+    </a>
+    <div id="specialSushi1" class="specialSushi">
+      <h4>• Lobster Rice Cake<i> (homemade rice cake topped with lobster salad, avocado, jalapeño, scallion, fresh lime juice, honey, furikake and eel sauce)</i></h4>
+      <h4>• Heart Attack<i> (deep-fried jalapeño stuffed with cream cheese and spicy tuna, served with special sauce)</i></h4>
+      <h4>• Monkey Brain<i> (1/2 of an avocado stuffed with crab meat and spicy tuna, then deep fried and drizzled with spicy mayo, siracha and eel sauce)</i></h4>
+    </div>
+
+    <a style="text-decoration:none;" href="javascript:void(0)" onclick="specialRollSushiView()">
+      <h3> ☰ Special Roll Sushi</h3>
+    </a>
+    <div id="specialRollSushi1" class="specialRollSushi" >
+      <h4>• New Ai Roll<i> (spicy crab and shrimp, tobiko, tuna, and Korean chili sauce, served in teh shape of love)</i></h4>
+      <h4>• Beef Tataki Roll<i> (tempura shrimp, cucumber, jalapeño, garlic butter, and cream cheese, topped with New York steak and eel sauce)</i></h4>
+      <h4>• Avalanche 1<i> (deep-fried and baked salmon, cream cheese, and cucumber, topped with spicy mayo and tobiko)</i></h4>
+      <h4>• Avalanche 2<i> (deep-fried and baked spicy tuna, topped with spicy mayo and tobiko)</i></h4>
+      <h4>• Avalanche 3<i> (deep-fried and baked chopped scallops, topped with spicy mayo and tobiko)</i></h4>
+      <h4>• Black Jack<i> (California roll with whole eel, topped with 4 kinds of tobiko)</i></h4>
+      <h4>• Colorado Springs Roll<i> (shrimp tempura and crab meat, topped with salmon and avocado)</i></h4>
+      <h4>• NYNY<i> (asparagus, cream cheese, cucumber, salmon, and tuna, topped with spicy mayo)</i></h4>
+      <h4>• Godzilla Roll<i> (fried white tuna, avocado, and crab, topped with spicy tuna, kani, tempura flakes, tobiko and chef's special sauce)</i></h4>
+      <h4>• Buffalo<i> (spicy tuna topped with avocado and sirracha)</i></h4>
+      <h4>• Sexy Girl Roll<i> (spicy crunch salmon roll topped with spicy tuna, salmon, yellowtail, masago, and chef's special sauce.)</i></h4>
+      <h4>• Caterpillar Roll<i> (unagi and cucumber topped with avocado)</i></h4>
+      <h4>• Hot Roll<i> (deep-fried spicy tuna, yellow tail, white fish, and jalapeño)</i></h4>
+      <h4>• Crazy Spicy<i> (deep-fried crab, spicy tuna, avocado, and sirracha)</i></h4>
+      <h4>• Dragon Roll<i> (California roll with unagi, topped with avocado topping)</i></h4>
+      <h4>• Happy Roll<i> (deep fried crab, jalapeno, and hamachi, wrapped with soybean paper, and topped with spicy mayo and tobiko)</i></h4>
+      <h4>• King Crab Roll<i> (cucumber, avocado, and a spicy mayo and baked King Crab mix, topped with tobiko)</i></h4>
+      <h4>• Lobster Roll<i> (lobster tempura, cucumber, and avocado, topped with 4 kinds of tobiko)</i></h4>
+      <h4>• Pikes Peak<i> (deep-fried calamari topped with spicy tuna)</i></h4>
+      <h4>• Shogun Roll<i> (shrimp tempura, tuna, crab, avocado, and cucumber, topped with masago)</i></h4>
+      <h4>• Super Spider<i> (shrimp tempura, soft shell crab, avocado, and cucumber, topped with crispy tempura flakes)</i></h4>
+      <h4>• Hawaiian Roll<i> (cucumber wrapped with tuna, salmon, yellowtail, kani, avocado, and ponzu sauce)</i></h4>
+      <h4>• Vegas Roll<i> (deep-fried salmon, cream cheese, and avocado)</i></h4>
+      <h4>• Beauty Alaska Roll<i> (crab meat, asparagus, salmon, and avocado, topped with spicy mayo sauce)</i></h4>
+      <h4>• Seared Tuna Roll<i> (lobster salad and avocado, topped with garlic butter, jalapeno, seared tuna, and sweet daikou sauce)</i></h4>
+      <h4>• Ninety Nine<i> (shrimp tempura, cream cheese, and spicy tuna, topped with avocado and salmon)</i></h4>
+      <h4>• Crunch Roll<i> (shrimp tempura, crab, avocado, and cucumber, topped with tempura flakes)</i></h4>
+      <h4>• Lion King Roll<i> (shrimp tempura, avocado, and cucumber, topped with kani, tempura flakes, spicy mayo, unagi sauce, and tobiko)</i></h4>
+      <h4>• Rockstar Roll<i> (spicy tuna, cucumber, jalapeno, lime, and green onions, topped with avocado, tempura flakes, sirracha, citrus wasabi aioli, and sweet sauce)</i></h4>
+      <h4>• Mango Tango Roll<i> (spicy crunchy salmon with shrimp tempura, topped with thinly sliced avocado, mango, house made mango puree and eel sauce)</i></h4>
+
+    </div>
+    <div class="textAlignCenter">
+      <img style="width: 60%; padding-top: 30px;" src="images/logo.png" alt="">
+    </div>
+
+
+
+  </section>
+
+  <section class="menuViews" id="lunchMenuView">
+    <img src="images/lunchline.png" alt="">
+    <h1>LUNCH MENU</h1>
+    <a style="text-decoration:none;" href="javascript:void(0)" onclick="nigiriSushiView()">
+      <h3 style="text-decoration:none;" id="nigiriSushiTitle"> ☰ Lunch Box</h3>
+    </a>
+    <a style="text-decoration:none;" href="javascript:void(0)" onclick="nigiriSushiView()">
+      <h3 style="text-decoration:none;" id="nigiriSushiTitle"> ☰ Deluxe Bento</h3>
+    </a>
+    <a style="text-decoration:none;" href="javascript:void(0)" onclick="nigiriSushiView()">
+      <h3 style="text-decoration:none;" id="nigiriSushiTitle"> ☰ Lunch Plate</h3>
+    </a>
+    <a style="text-decoration:none;" href="javascript:void(0)" onclick="nigiriSushiView()">
+      <h3 style="text-decoration:none;" id="nigiriSushiTitle"> ☰ Rice Bowls</h3>
+    </a>
+    <a style="text-decoration:none;" href="javascript:void(0)" onclick="nigiriSushiView()">
+      <h3 style="text-decoration:none;" id="nigiriSushiTitle"> ☰ UDON</h3>
+    </a>
+    <a style="text-decoration:none;" href="javascript:void(0)" onclick="nigiriSushiView()">
+      <h3 style="text-decoration:none;" id="nigiriSushiTitle"> ☰ Yakisoba</h3>
+    </a>
+    <a style="text-decoration:none;" href="javascript:void(0)" onclick="nigiriSushiView()">
+      <h3 style="text-decoration:none;" id="nigiriSushiTitle"> ☰ Sushi Lunch</h3>
+    </a>
+
+    <div class="textAlignCenter">
+      <img style="width: 60%; padding-top: 30px;" src="images/logo.png" alt="">
+    </div>
+
+  </section>
+
+
+
+  <script>
+    function openNav() {
+      document.getElementById("mySidebar").style.height = "100%";
+      document.getElementById("main").style.scale = "0";
+      document.getElementById("mySidebar").style.scale = "1";
+
+
+    }
+
+    function sushiMenu() {
+
+      document.getElementById("mySidebar").style.height = "0";
+      document.getElementById("main").style.marginTop = "0";
+      document.getElementById("main").style.scale = "1";
+      document.getElementById("mySidebar").style.scale = "0";
+      document.getElementById("sushiMenuView").style.display = "inline-block";
+
+      document.getElementById("instructionsView").style.display = "none";
+      document.getElementById("lunchMenuView").style.display = "none";
+    }
+
+    function lunchMenu() {
+      document.getElementById("mySidebar").style.height = "0";
+      document.getElementById("main").style.marginTop = "0";
+      document.getElementById("main").style.scale = "1";
+      document.getElementById("mySidebar").style.scale = "0";
+
+      document.getElementById("instructionsView").style.display = "none";
+      document.getElementById("sushiMenuView").style.display = "none";
+      document.getElementById("lunchMenuView").style.display = "inline-block";
+    }
+
+    function nigiriSushiView() {
+      if (document.getElementById("nigiriSushi1").style.display == "inline-block") {
+        document.getElementById("nigiriSushi1").style.display = "none";
+      } else {
+        document.getElementById("nigiriSushi1").style.display = "inline-block";
+      }
+    }
+
+    function sashimiAppetizerView() {
+      if (document.getElementById("sashimiAppetizer1").style.display == "inline-block") {
+        document.getElementById("sashimiAppetizer1").style.display = "none";
+      } else {
+        document.getElementById("sashimiAppetizer1").style.display = "inline-block";
+      }
+    }
+
+    function rollSushiView() {
+      if (document.getElementById("rollSushi1").style.display == "inline-block") {
+        document.getElementById("rollSushi1").style.display = "none";
+      } else {
+        document.getElementById("rollSushi1").style.display = "inline-block";
+      }
+    }
+
+    function specialSushiView() {
+      if (document.getElementById("specialSushi1").style.display == "inline-block") {
+        document.getElementById("specialSushi1").style.display = "none";
+      } else {
+        document.getElementById("specialSushi1").style.display = "inline-block";
+      }
+    }
+
+    function specialRollSushiView() {
+      if (document.getElementById("specialRollSushi1").style.display == "inline-block") {
+        document.getElementById("specialRollSushi1").style.display = "none";
+      } else {
+        document.getElementById("specialRollSushi1").style.display = "inline-block";
+      }
+    }
+
+    function closeNav() {
+      document.getElementById("mySidebar").style.height = "0";
+      document.getElementById("main").style.marginTop = "0";
+      document.getElementById("main").style.scale = "1";
+      document.getElementById("mySidebar").style.scale = "0";
+      document.getElementByClass("closebtn").style.scale = "1";
+    }
+  </script>
+</body>
+
+</html>

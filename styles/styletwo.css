@@ -1,0 +1,192 @@
+
+
+body {
+  background-color: white;
+}
+
+
+.textAlignCenter {
+  text-align: center;
+}
+
+.menuBar {
+  width: 100%;
+  height: 70px;
+}
+
+
+.sidebar {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  scale: 0;
+  top: 0;
+  left: 0;
+  background-color: #3A3845;
+  overflow-x: hidden;
+  transition:1s;
+  padding-top: 60px;
+}
+
+img {
+  border-radius: 10px;
+}
+
+.menuViews img {
+  border-radius: 0;
+  width: 100%;
+}
+
+
+#instructionsView {
+  padding-top: 300px;
+  margin: 0 40px;
+}
+
+#sushiMenuView, #lunchMenuView {
+  display: none;
+}
+
+.menuViews {
+  margin: 80px 0;
+}
+
+hr {
+  width: 100%;
+}
+
+h1 {
+  font-weight: bolder;
+  margin-left: 10px;
+  font-family: "Secular One";
+}
+
+h2 {
+  margin-left: 10px;
+}
+#sushiMenuView h3 {
+  color:white;
+  background-color: black;
+  padding: 13px 15px;
+  margin-left: 10px;
+  font-family: "Anek Odia";
+}
+
+#lunchMenuView h3 {
+  color:white;
+  background-color: #511006;
+  padding: 13px 15px;
+  margin-left: 10px;
+  font-family: "Anek Odia";
+}
+
+h4 {
+  margin-left: 25px;
+  margin-right: 20px;
+}
+
+i {
+  font-size: 0.8rem;
+  font-weight: light;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 8px;
+  text-decoration: none;
+  font-size: 25px;
+  color:white;
+  display: block;
+  transition: 0.1s;
+  text-align: right;
+}
+
+.sidebar h1 {
+  color: white;
+  font-weight: bolder;
+  margin-left: 30px;
+}
+
+.topMenuBar {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+
+  position: fixed;
+  width: 100%;
+  transition: 1s;
+
+  background-color: #383838;
+}
+
+.menuItem {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.col-6 , .col-3 {
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+.menuBar {
+  background-color: white;
+  color: #06113C;
+  border-radius: 30px;
+  font-size: 1.3rem;
+}
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 5px;
+}
+
+.openbtn {
+  font-size: 40px;
+  cursor: pointer;
+  background-color: #DDDDDD;
+  color: black;
+  padding: 0 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+a:hover {
+  opacity: 10%;
+}
+
+.nigiriSushi, .sashimiAppetizer, .rollSushi, .specialSushi, .specialRollSushi {
+  display: none;
+  text-decoration: none;
+}
+
+.nigiriSushi:hover {
+  text-decoration: none;
+}
